@@ -1,0 +1,32 @@
+[
+  {
+    "idarticulo": 1,
+    "nombrearticulo": "Martillo",
+    "precio": 15.50,
+    "existencias": 100
+  },
+  {
+    "idarticulo": 2,
+    "nombrearticulo": "Destornillador",
+    "precio": 8.99,
+    "existencias": 250
+  },
+  {
+    "idarticulo": 3,
+    "nombrearticulo": "Clavo (caja 1kg)",
+    "precio": 5.00,
+    "existencias": 500
+  },
+  {
+    "idarticulo": 4,
+    "nombrearticulo": "Tornillo (caja 500pz)",
+    "precio": 12.75,
+    "existencias": 150
+  },
+  {
+    "idarticulo": 5,
+    "nombrearticulo": "Llave inglesa",
+    "precio": 22.99,
+    "existencias": 45
+  }
+]

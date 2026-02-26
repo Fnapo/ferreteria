@@ -1,7 +1,6 @@
 package com.hibernate.ferreteria.entities;
 
-import java.sql.Date;
-
+import java.time.LocalDateTime;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -18,8 +17,8 @@ public class Articulo {
   private String nombrearticulo;
   private double precio;
   private int existencias;
-  private Date creado_el;
-  private Date modificado_el;
+  private LocalDateTime creado_el;
+  private LocalDateTime modificado_el;
 
   public Articulo(long idarticulo, String nombrearticulo, double precio, int existencias) {
     this.idarticulo = idarticulo;
@@ -63,11 +62,19 @@ public class Articulo {
     this.existencias = existencias;
   }
 
-  public Date getCreado_el() {
+  public LocalDateTime getCreado_el() {
     return creado_el;
   }
 
-  public Date getModificado_el() {
+  public void setCreado_el(LocalDateTime creado_el) {
+    this.creado_el = creado_el;
+  }
+
+  public void setModificado_el(LocalDateTime modificado_el) {
+    this.modificado_el = modificado_el;
+  }
+
+  public LocalDateTime getModificado_el() {
     return modificado_el;
   }
 }
